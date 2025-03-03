@@ -13,6 +13,11 @@ export interface ICanvas {
     height: number;
 
     /**
+     * Canvas filter. Similar to the CSS filter property and accepts the same values.
+     */
+    filter: string;
+
+    /**
      * returns a drawing context on the canvas.
      * @param contextType context identifier.
      * @param contextAttributes context attributes.
